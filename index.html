@@ -6,11 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rogo Solutions - Home</title>
     <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
+    <!-- Head link CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Head link CSS local -->
+    <link rel="stylesheet" href="./css/root.css" />
     <link rel="stylesheet" href="./css/font.css" />
     <link rel="stylesheet" href="./css/text.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header></header>
+    <!-- Header -->
+    <header
+      class="rogo__flex rogo__row rogo__align__items__center rogo__header"
+    >
+      <img
+        src="./assets/logo.svg"
+        alt="Logo Rogo Solutions"
+        class="rogo__logo"
+      />
+      <nav
+        class="rogo__nav rogo__justify__content__center rogo__flex rogo__align__items__center"
+      >
+        <a class="rogo__nav__item rogo__nav__item__selected" href="/index.html"
+          >Trang chủ</a
+        >
+        <a href="#" class="rogo__nav__item">Giải pháp</a>
+        <a href="#" class="rogo__nav__item">Tính năng</a>
+        <a href="#" class="rogo__nav__item">Giao thức kết nối</a>
+        <a href="#" class="rogo__nav__item">Đối tác</a>
+        <a href="#" class="rogo__nav__item">Về chúng tôi</a>
+      </nav>
+      <div class="rogo__header__language">
+        <a href="#"><img src="./assets/vietnamese-icon.png" alt="US" /></a>
+        <a href="#"><img src="./assets/english-icon.png" alt="VN" /></a>
+      </div>
+    </header>
     <footer></footer>
   </body>
 </html>

@@ -1,0 +1,61 @@
+.rogo__flex {
+    display: flex;
+}
+
+.rogo__col {
+    flex-direction: column;
+}
+
+.rogo__row {
+    flex-direction: row;
+}
+
+.rogo__align__items__center {
+    align-items: center;
+}
+
+.rogo__justify__content__center {
+    justify-content: center;
+}
+
+.rogo__header {
+    height: 96.8px;
+    margin: 62px 48px 0 81px;
+}
+
+.rogo__nav {
+    margin: 70px;
+    flex: 1;
+}
+
+.rogo__nav__item {
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #EAEAEA;
+    padding: 16px;
+}
+
+a.rogo__nav__item {
+    text-decoration: none;
+}
+
+.rogo__nav__item__selected {
+    color: #FFFFFF;
+    font-weight: 700 !important;
+}
+
+.rogo__nav__item_language {
+    width: 33px;
+    height: 24px;
+}
+
+.rogo__logo {
+    width: 68.29px;
+    height: 96.8px;
+}
+
+.rogo__header__language {
+    margin: 0 4px 0 4px;
+}
