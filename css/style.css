@@ -20,7 +20,7 @@
 
 .rogo__header {
     height: 96.8px;
-    margin: 62px 48px 0 81px;
+    margin: 62px 80px;
 }
 
 .rogo__nav {
@@ -31,7 +31,7 @@
 .rogo__nav__item {
     font-style: normal;
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 24px;
     color: #EAEAEA;
     padding: 16px;
@@ -58,4 +58,9 @@ a.rogo__nav__item {
 
 .rogo__header__language {
     margin: 0 4px 0 4px;
+}
+
+
+.rogo__footer {
+    margin: 80px;
 }
