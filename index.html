@@ -14,37 +14,54 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- Head link CSS local -->
-    <link rel="stylesheet" href="./css/root.css" />
-    <link rel="stylesheet" href="./css/font.css" />
-    <link rel="stylesheet" href="./css/text.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Head link CSS CDN -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Header -->
-    <header
-      class="rogo__flex rogo__row rogo__align__items__center rogo__header"
-    >
+    <header class="flex flex-row items-center my-[62px] ml-[80px] mr-[48px]">
       <img
         src="./assets/logo.svg"
         alt="Logo Rogo Solutions"
-        class="rogo__logo"
+        class="w-[68.29px] h-[96.8px]"
       />
-      <nav
-        class="rogo__nav rogo__justify__content__center rogo__flex rogo__align__items__center"
-      >
-        <a class="rogo__nav__item rogo__nav__item__selected" href="/index.html"
+      <nav class="flex flex-1 flex-row items-center justify-center">
+        <a class="text-[24px] text-white font-bold px-[26px]" href="/index.html"
           >Trang chủ</a
         >
-        <a href="#" class="rogo__nav__item">Giải pháp</a>
-        <a href="#" class="rogo__nav__item">Tính năng</a>
-        <a href="#protocol" class="rogo__nav__item">Giao thức kết nối</a>
-        <a href="#partner" class="rogo__nav__item">Đối tác</a>
-        <a href="#about" class="rogo__nav__item">Về chúng tôi</a>
+        <a href="#" class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
+          >Giải pháp</a
+        >
+        <a href="#" class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
+          >Tính năng</a
+        >
+        <a
+          href="#protocol"
+          class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
+          >Giao thức kết nối</a
+        >
+        <a
+          href="#partner"
+          class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
+          >Đối tác</a
+        >
+        <a
+          href="#about"
+          class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
+          >Về chúng tôi</a
+        >
       </nav>
-      <div class="rogo__header__language">
+      <div class="flex flex-row items-center">
         <a href="#"><img src="./assets/vietnamese-icon.png" alt="US" /></a>
-        <a href="#"><img src="./assets/english-icon.png" alt="VN" /></a>
+        <a href="#"
+          ><img src="./assets/english-icon.png" alt="VN" class="ml-[8px]"
+        /></a>
       </div>
     </header>
     <!-- About Us -->
@@ -52,18 +69,16 @@
     <!-- Protocol -->
     <section id="protocol"></section>
     <!-- Partner -->
-    <section id="partner"></section>
-    <img src="./assets/wave-footer.svg" alt="" srcset="" width="100%" />
+    <section id="partner">
+      <p></p>
+    </section>
+    <img src="./assets/wave-footer.svg" alt="" srcset="" class="w-full" />
     <!-- Footer -->
     <footer>
       <div>
-
-      </div>
-      <div>
-        <div>
-          
-        </div>
+        <div></div>
       </div>
     </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
   </body>
 </html>
