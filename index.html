@@ -27,50 +27,58 @@
   </head>
   <body class="flex flex-col items-center w-full">
     <!-- Header -->
-    <header
-      class="bg-[#202125] justify-center flex w-full flex flex-row items-center py-[62px] pl-[80px] pr-[48px] z-[1] sticky top-0 left-0"
-    >
-      <img
-        src="./assets/logo.svg"
-        alt="Logo Rogo Solutions"
-        class="w-[68.29px] h-[96.8px]"
-      />
-      <nav class="flex flex-1 flex-row items-center justify-center">
-        <a class="text-[24px] text-white font-bold px-[26px]" href="/index.html"
-          >Trang chủ</a
-        >
-        <a href="#" class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-          >Giải pháp</a
-        >
-        <a
-          href="#functions"
-          class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-          >Tính năng</a
-        >
-        <a
-          href="#protocol"
-          class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-          >Giao thức kết nối</a
-        >
-        <a
-          href="#partner"
-          class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-          >Đối tác</a
-        >
-        <a
-          href="#about"
-          class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-          >Về chúng tôi</a
-        >
-      </nav>
-      <div class="flex flex-row items-center">
-        <a href="#"><img src="./assets/vietnamese-icon.png" alt="US" /></a>
-        <a href="#"
-          ><img src="./assets/english-icon.png" alt="VN" class="ml-[8px]"
-        /></a>
+    <!-- sticky top-0 left-0 -->
+    <header id="header" class="bg-[#202125] w-full z-[1] flex justify-center">
+      <div
+        class="w-[1440px] flex flex-row justify-center items-center py-[62px] pl-[80px] pr-[48px]"
+      >
+        <img
+          src="./assets/logo.svg"
+          alt="Logo Rogo Solutions"
+          class="w-[68.29px] h-[96.8px]"
+        />
+        <nav class="flex flex-1 flex-row items-center justify-center">
+          <a
+            class="text-[24px] text-white font-bold px-[26px]"
+            href="/index.html"
+            >Trang chủ</a
+          >
+          <a href="#" class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
+            >Giải pháp</a
+          >
+          <a
+            href="#functions"
+            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
+            >Tính năng</a
+          >
+          <a
+            href="#protocol"
+            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
+            >Giao thức kết nối</a
+          >
+          <a
+            href="#partner"
+            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
+            >Đối tác</a
+          >
+          <a
+            href="#about"
+            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
+            >Về chúng tôi</a
+          >
+        </nav>
+        <div class="flex flex-row items-center">
+          <a href="#"><img src="./assets/vietnamese-icon.png" alt="US" /></a>
+          <a href="#"
+            ><img src="./assets/english-icon.png" alt="VN" class="ml-[8px]"
+          /></a>
+        </div>
       </div>
     </header>
-    <main class="w-full flex flex-col items-center justify-center">
+    <main
+      id="introduction"
+      class="w-full flex flex-col items-center justify-center"
+    >
       <div class="flex flex-row mb-[66px] w-[1440px]">
         <p
           class="text-white text-[86.67px] w-[331px] h-[258px] mr-[46px] ml-[102px]"
@@ -103,8 +111,11 @@
       />
     </main>
     <!-- About Us -->
-    <img src="./assets/top-about.svg" alt="" class="w-full" id="about" />
-    <section class="flex flex-col bg-[#272B3F] w-full items-center pt-[73px]">
+    <img src="./assets/top-about.svg" alt="" class="w-full" />
+    <section
+      id="about"
+      class="flex flex-col bg-[#272B3F] w-full items-center pt-[73px]"
+    >
       <h2
         class="uppercase text-white text-[48px] font-bold text-center mb-[66px]"
       >
@@ -188,7 +199,10 @@
         </div>
       </div>
     </section>
-    <section class="w-full bg-[#272B3F] flex justify-center pt-[130px]">
+    <section
+      id="app-interface-design"
+      class="w-full bg-[#272B3F] flex justify-center pt-[130px]"
+    >
       <div class="relative z-0">
         <img src="./assets/app-ui.png" alt="" class="w-[1440px]" />
         <p
@@ -203,7 +217,9 @@
       class="bg-[#272B3F] flex flex-col justify-center items-center w-full pt-[216px]"
     >
       <h2 class="text-white text-[70.7797px] font-bold uppercase">Functions</h2>
-      <p class="w-[1112px] text-[24px] text-white font-light mt-[32px]">
+      <p
+        class="w-[1112px] text-[24px] text-white font-light mt-[32px] text-center"
+      >
         Rogo là giải pháp nhà thông minh với đây đủ các tính năng cơ bản để điều
         khiển các thiết bị từ xa, đặt lịch, hẹn giờ hay xây dựng các kịch bản
         đơn giản, phức tạp. Hệ thống thiết bị Rogo có thể giúp các bạn liên kết
@@ -280,6 +296,7 @@
     </section>
     <!-- BENEFITS FROM ROGO SOLUTIONS -->
     <section
+      id="benefit-from-rogo-solutions"
       class="bg-[#272B3F] flex flex-col justify-center items-center w-full pt-[244px] pb-[173.4px]"
     >
       <h2 class="text-white text-[70.7797px] font-bold uppercase">
@@ -349,6 +366,7 @@
     <!-- Use Cases -->
 
     <section
+      id="use-cases"
       class="flex flex-col justify-center items-center w-full pt-[244px] pb-[173.4px]"
     >
       <div class="w-[1440px] flex justify-center items-center">
@@ -521,6 +539,7 @@
     <!-- ROGO Partnership Model -->
 
     <section
+      id="rogo-partnership-model"
       class="bg-[#272B3F] flex flex-col justify-center items-center w-full pt-[244px] pb-[173.4px]"
     >
       <h2 class="text-white text-[70.7797px] font-bold uppercase">
@@ -625,9 +644,75 @@
     </section>
     <!-- Footer -->
     <img src="./assets/wave-footer.svg" alt="" class="w-full" />
-    <footer>
-      <div>
-        <div></div>
+    <footer id="footer" class="w-full flex justify-center mt-[77px] mb-[70px]">
+      <div class="w-[1440px] flex flex-row">
+        <div class="flex flex-1 flex-col items-start ml-[137px]">
+          <p
+            class="text-white text-[48px] border-dashed border-b-2 border-[#F25F00] font-bold"
+          >
+            Liên hệ
+          </p>
+          <div class="flex flex-row justify-start items-center mt-[23px]">
+            <img src="./assets/location.svg" alt="" class="w-[45px] h-[45px]" />
+            <div class="flex flex-col ml-[34px]">
+              <p class="text-white text-[32px] font-bold">Văn phòng</p>
+              <p class="text-white text-[24px] font-light mt-[3px]">
+                88 Đường Số 52, Phường An Phú, Quận 2, Hồ Chí Minh
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row justify-start items-center mt-[23px]">
+            <img src="./assets/mail.svg" alt="" class="w-[45px] h-[45px]" />
+            <div class="flex flex-col ml-[34px]">
+              <p class="text-white text-[32px] font-bold">Thư điện tử</p>
+              <p class="text-white text-[24px] font-light mt-[3px]">
+                contact@rogo.com.vn - tuan@rogo.com.vn
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row justify-start items-center mt-[23px]">
+            <img src="./assets/phone.svg" alt="" class="w-[45px] h-[45px]" />
+            <div class="flex flex-col ml-[34px]">
+              <p class="text-white text-[32px] font-bold">Điện thoại</p>
+              <p class="text-white text-[24px] font-light mt-[3px]">
+                0904 371 185 - 0936 252 127
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-end mr-[78px]">
+          <div class="flex flex-row">
+            <a href="#">
+              <img
+                src="./assets/facebook.svg"
+                alt="Facebook"
+                class="w-[40px] h-[40px] ml-[30px]"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./assets/twitter.svg"
+                alt="Twitter"
+                class="w-[40px] h-[40px] ml-[30px]"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./assets/instagram.svg"
+                alt="Instagram"
+                class="w-[40px] h-[40px] ml-[30px]"
+              />
+            </a>
+          </div>
+          <div class="flex flex-col items-start mt-[72px]">
+            <p class="text-white text-[18px] font-light">Hướng dẫn chỉ đường</p>
+            <img
+              src="./assets/map.png"
+              alt=""
+              class="w-[356px] h-[207px] rounded-[13px] mt-[8px]"
+            />
+          </div>
+        </div>
       </div>
     </footer>
   </body>
