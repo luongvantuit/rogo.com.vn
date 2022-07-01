@@ -25,10 +25,13 @@
     <!-- Head link CSS Local -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="flex flex-col items-center w-full">
+  <body class="flex flex-col items-center w-full transition duration-500">
     <!-- Header -->
     <!-- sticky top-0 left-0 -->
-    <header id="header" class="bg-[#202125] w-full z-[1] flex justify-center sticky top-[-32px] left-0 right-0">
+    <header
+      id="header"
+      class="bg-[#202125] w-full z-[1] flex justify-center sticky top-[-32px] left-0 right-0"
+    >
       <div
         class="w-[1440px] flex flex-row justify-center items-center pt-[62px] pb-[30px] pl-[80px] pr-[48px]"
       >
@@ -375,7 +378,7 @@
           </div>
           <div class="flex flex-row items-center">
             <p class="text-white text-[24px] uppercase text-end">
-              Điều khiển thiết bị từ xa kể cả khi mất mạng
+              Điều khiển từ xa kể cả khi mất mạng
             </p>
             <img
               src="./assets/functions/fa-lan.svg"
@@ -848,5 +851,13 @@
         </div>
       </div>
     </footer>
+    <button
+      id="goto__top"
+      class="fixed right-[54px] bottom-[54px] w-[54px] h-[54px] z-10 bg-gray-100 rounded-[16px] shadow-xl drop-shadown-xl transition duration-500 hidden"
+      title="Go to Top"
+    >
+      <i class="fa-solid fa-arrow-up-long text-[#202125]"></i>
+    </button>
+    <script src="./js/script.js"></script>
   </body>
 </html>
