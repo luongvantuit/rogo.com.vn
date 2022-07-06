@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.addEventListener("scroll", () => {
     if (
-      document.body.scrollTop > 128 ||
-      document.documentElement.scrollTop > 128
+      document.body.scrollTop >= 128 ||
+      document.documentElement.scrollTop >= 128
     ) {
       gotoTop.classList.remove("hidden");
     } else {

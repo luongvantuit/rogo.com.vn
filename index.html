@@ -25,50 +25,33 @@
     <!-- Head link CSS Local -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="flex flex-col items-center w-full transition duration-500">
+  <body>
     <!-- Header -->
     <!-- sticky top-0 left-0 -->
     <header
       id="header"
-      class="bg-[#202125] w-full z-[1] flex justify-center sticky top-[-32px] left-0 right-0"
+      class="bg-[#202125] w-full z-[1] flex justify-center sticky top-[-32px] left-0 right-0 duration-500 transition-all"
     >
       <div
         class="w-[1440px] flex flex-row justify-center items-center pt-[62px] pb-[30px] pl-[80px] pr-[48px]"
       >
         <img
+          id="logo__banner"
           src="./assets/logo.svg"
           alt="Logo Rogo Solutions"
           class="w-[68.29px] h-[96.8px]"
         />
-        <nav class="flex flex-1 flex-row items-center justify-center">
-          <a
-            class="text-[24px] text-white font-bold px-[26px]"
-            href="/index.html"
+        <nav
+          class="flex flex-1 flex-row items-center justify-center text-[#EAEAEA] font-medium text-[24px]"
+        >
+          <a class="text-white font-bold px-[26px]" href="/index.html"
             >Trang chủ</a
           >
-          <a href="#" class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-            >Giải pháp</a
-          >
-          <a
-            href="#functions"
-            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-            >Tính năng</a
-          >
-          <a
-            href="#protocol"
-            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-            >Giao thức kết nối</a
-          >
-          <a
-            href="#partner"
-            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-            >Đối tác</a
-          >
-          <a
-            href="#about"
-            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-            >Về chúng tôi</a
-          >
+          <a href="#" class="px-[26px]">Giải pháp</a>
+          <a href="#functions" class="px-[26px]">Tính năng</a>
+          <a href="#protocol" class="px-[26px]">Giao thức kết nối</a>
+          <a href="#partner" class="px-[26px]">Đối tác</a>
+          <a href="#about" class="px-[26px]">Về chúng tôi</a>
         </nav>
         <div class="flex flex-row items-center">
           <a href="#"><img src="./assets/vietnamese-icon.png" alt="US" /></a>
@@ -842,11 +825,16 @@
           </div>
           <div class="flex flex-col items-start mt-[72px]">
             <p class="text-white text-[18px] font-light">Hướng dẫn chỉ đường</p>
-            <img
-              src="./assets/map.png"
-              alt=""
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.350084658001!2d106.74895421483647!3d10.784476261993872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525df172b81fb%3A0x4b9f2fceecf51dc2!2zODggxJDGsOG7nW5nIHPhu5EgNTIsIEFuIFBow7osIFF14bqtbiAyLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1657095749587!5m2!1sen!2s"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
               class="w-[356px] h-[207px] rounded-[13px] mt-[8px]"
-            />
+            ></iframe>
           </div>
         </div>
       </div>
