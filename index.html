@@ -18,47 +18,38 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
   <!-- Head link CSS Local -->
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/introduction.css">
-  <link rel="stylesheet" href="./css/about.css">
-  <link rel="stylesheet" href="./css/benefits.css">
-  <link rel="stylesheet" href="./css/use-case.css">
-  <link rel="stylesheet" href="./css/partnership.css">
-  <link rel="stylesheet" href="./css/protocol.css">
-  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
   <!-- Header -->
   <!-- sticky top-0 left-0 -->
-  <header id="header" class="rogo__header">
-    <div class="rogo__header__container">
-      <img id="rogo__logo__banner" src="./assets/logo.svg" alt="Logo banner Rogo Solutions"
-        class="rogo__header__container__logo" />
-      <nav class="rogo__header__container__nav">
-        <a class="rogo__header__container__nav__item rogo__header__container__nav__item__active"
-          href="/index.html">Trang chủ</a>
-        <a href="#" class="rogo__header__container__nav__item">Giải pháp</a>
-        <a href="#functions" class="rogo__header__container__nav__item">Tính năng</a>
-        <a href="#protocol" class="rogo__header__container__nav__item">Giao thức kết nối</a>
-        <a href="#partner" class="rogo__header__container__nav__item">Đối tác</a>
-        <a href="#about" class="rogo__header__container__nav__item">Về chúng tôi</a>
+  <header id="header" class="w-full flex justify-center items-center sticky top-0 right-0 left-0 z-[1]">
+    <div class="w-full py-[24px] pr-[32px] pl-[16px] flex justify-between items-center desktop:!w-[1440px]">
+      <img id="rogo__logo__banner" src="./assets/logo.svg" alt="Logo banner Rogo Solutions" class="w-[62px] h-[84px]" />
+      <nav class="flex flex-row justify-center items-center">
+
+        <a class="text-[24px] text-white font-bold px-[16px] py-[8px]" href="./index.html">Trang chủ</a>
+        <a href="#" class="text-[24px] text-[#EAEAEA] font-light px-[16px] py-[8px]">Giải pháp</a>
+        <a href="#functions" class="text-[24px] text-[#EAEAEA] font-light px-[16px] py-[8px]">Tính năng</a>
+        <a href="#protocol" class="text-[24px] text-[#EAEAEA] font-light px-[16px] py-[8px]">Giao thức kết nối</a>
+        <a href="#partner" class="text-[24px] text-[#EAEAEA] font-light px-[16px] py-[8px]">Đối tác</a>
+        <a href="#about" class="text-[24px] text-[#EAEAEA] font-light px-[16px] py-[8px]">Về chúng tôi</a>
       </nav>
-      <div class="rogo__header__container__language__container">
+      <div class="flex flex-row items-center">
         <a href="#"><img src="./assets/vietnamese-icon.png" alt="US"
-            class="rogo__header__container__language__container__item" /></a>
+            class="w-[32px] h-[24px] ml-[8px] rounded-[4px]" /></a>
         <a href="#"><img src="./assets/english-icon.png" alt="VN"
-            class="rogo__header__container__language__container__item" /></a>
+            class="w-[32px] h-[24px] ml-[8px] rounded-[4px]" /></a>
       </div>
     </div>
   </header>
-  <main id="introduction" class="rogo__introduction">
-    <div class="rogo__introduction_container">
+  <main id="introduction" class="w-full flex flex-col justify-center items-center mt-[32px]">
+    <div class="w-full flex flex-row mb-[66px] desktop:!w-[1440px]">
       <p class="text-white text-[86.67px] w-[331px] h-[258px] mr-[46px] ml-[102px]">
         Make your life smart
       </p>
-      <div class="flex flex-col w-[839px] mt-[32px]">
+      <div class="w-[839px] mt-[32px] flex flex-col">
         <p class="text-[#EAEAEA] text-[24px] font-light">
           Rogo là giải pháp nền tảng thiết bị thông minh cho các công ty,
           doanh nghiệp có nhu cầu xây dựng các sản phẩm thiết bị thông minh!
@@ -74,7 +65,7 @@
         </div>
       </div>
     </div>
-    <img src="./assets/top-background.png" alt="" />
+    <img src="./assets/top-background.png" alt="" class="w-[1440px] mt-[-128px]" />
   </main>
   <!-- About Us -->
   <img src="./assets/top-about.svg" alt="" class="w-full" />
@@ -479,58 +470,68 @@
   <!-- Footer -->
   <img src="./assets/wave-footer.svg" alt="" class="w-full" />
   <footer id="footer" class="w-full flex justify-center mt-[77px] mb-[70px]">
-    <div class="w-[1440px] flex flex-row">
-      <div class="flex flex-1 flex-col items-start ml-[137px]">
-        <p class="text-white text-[48px] border-dashed border-b-2 border-[#F25F00] font-bold">
-          Liên hệ
-        </p>
-        <div class="flex flex-row justify-start items-center mt-[23px]">
-          <img src="./assets/location.svg" alt="" class="w-[45px] h-[45px]" />
-          <div class="flex flex-col ml-[34px]">
-            <p class="text-white text-[32px] font-bold">Văn phòng</p>
-            <p class="text-white text-[24px] font-light mt-[3px]">
-              88 Đường Số 52, Phường An Phú, Quận 2, Hồ Chí Minh
-            </p>
+    <div class="w-full flex flex-col desktop:!w-[1440px]">
+      <div class="w-full flex flex-row">
+        <div class="flex flex-1 flex-col items-start ml-[137px]">
+          <p class="text-white text-[48px] border-dashed border-b-2 border-[#F25F00] font-bold">
+            Liên hệ
+          </p>
+          <div class="flex flex-row justify-start items-center mt-[23px]">
+            <img src="./assets/location.svg" alt="" class="w-[45px] h-[45px]" />
+            <div class="flex flex-col ml-[34px]">
+              <p class="text-white text-[32px] font-bold">Văn phòng</p>
+              <p class="text-white text-[24px] font-light mt-[3px]">
+                88 Đường Số 52, Phường An Phú, Quận 2, Hồ Chí Minh
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row justify-start items-center mt-[23px]">
+            <img src="./assets/mail.svg" alt="" class="w-[45px] h-[45px]" />
+            <div class="flex flex-col ml-[34px]">
+              <p class="text-white text-[32px] font-bold">Thư điện tử</p>
+              <p class="text-white text-[24px] font-light mt-[3px]">
+                contact@rogo.com.vn - tuan@rogo.com.vn
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row justify-start items-center mt-[23px]">
+            <img src="./assets/phone.svg" alt="" class="w-[45px] h-[45px]" />
+            <div class="flex flex-col ml-[34px]">
+              <p class="text-white text-[32px] font-bold">Điện thoại</p>
+              <p class="text-white text-[24px] font-light mt-[3px]">
+                0904 371 185 - 0936 252 127
+              </p>
+            </div>
           </div>
         </div>
-        <div class="flex flex-row justify-start items-center mt-[23px]">
-          <img src="./assets/mail.svg" alt="" class="w-[45px] h-[45px]" />
-          <div class="flex flex-col ml-[34px]">
-            <p class="text-white text-[32px] font-bold">Thư điện tử</p>
-            <p class="text-white text-[24px] font-light mt-[3px]">
-              contact@rogo.com.vn - tuan@rogo.com.vn
-            </p>
+        <div class="flex flex-col items-end mr-[78px]">
+          <div class="flex flex-row">
+            <a href="#">
+              <img src="./assets/facebook.svg" alt="Facebook" class="w-[40px] h-[40px] ml-[30px]" />
+            </a>
+            <a href="#">
+              <img src="./assets/twitter.svg" alt="Twitter" class="w-[40px] h-[40px] ml-[30px]" />
+            </a>
+            <a href="#">
+              <img src="./assets/instagram.svg" alt="Instagram" class="w-[40px] h-[40px] ml-[30px]" />
+            </a>
+          </div>
+          <div class="mt-[72px] hidden flex-col items-start tablet:!flex">
+            <p class="text-white text-[18px] font-light">Hướng dẫn chỉ đường</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.350084658001!2d106.74895421483647!3d10.784476261993872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525df172b81fb%3A0x4b9f2fceecf51dc2!2zODggxJDGsOG7nW5nIHPhu5EgNTIsIEFuIFBow7osIFF14bqtbiAyLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1657095749587!5m2!1sen!2s"
+              width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" class="w-[356px] h-[207px] rounded-[13px] mt-[8px]"></iframe>
           </div>
         </div>
-        <div class="flex flex-row justify-start items-center mt-[23px]">
-          <img src="./assets/phone.svg" alt="" class="w-[45px] h-[45px]" />
-          <div class="flex flex-col ml-[34px]">
-            <p class="text-white text-[32px] font-bold">Điện thoại</p>
-            <p class="text-white text-[24px] font-light mt-[3px]">
-              0904 371 185 - 0936 252 127
-            </p>
-          </div>
-        </div>
+
       </div>
-      <div class="flex flex-col items-end mr-[78px]">
-        <div class="flex flex-row">
-          <a href="#">
-            <img src="./assets/facebook.svg" alt="Facebook" class="w-[40px] h-[40px] ml-[30px]" />
-          </a>
-          <a href="#">
-            <img src="./assets/twitter.svg" alt="Twitter" class="w-[40px] h-[40px] ml-[30px]" />
-          </a>
-          <a href="#">
-            <img src="./assets/instagram.svg" alt="Instagram" class="w-[40px] h-[40px] ml-[30px]" />
-          </a>
-        </div>
-        <div class="flex flex-col items-start mt-[72px]">
-          <p class="text-white text-[18px] font-light">Hướng dẫn chỉ đường</p>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.350084658001!2d106.74895421483647!3d10.784476261993872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525df172b81fb%3A0x4b9f2fceecf51dc2!2zODggxJDGsOG7nW5nIHPhu5EgNTIsIEFuIFBow7osIFF14bqtbiAyLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1657095749587!5m2!1sen!2s"
-            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade" class="w-[356px] h-[207px] rounded-[13px] mt-[8px]"></iframe>
-        </div>
+      <div class="mt-[72px] ml-[137px] flex flex-col items-start tablet:!hidden">
+        <p class="text-white text-[18px] font-light">Hướng dẫn chỉ đường</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.350084658001!2d106.74895421483647!3d10.784476261993872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525df172b81fb%3A0x4b9f2fceecf51dc2!2zODggxJDGsOG7nW5nIHPhu5EgNTIsIEFuIFBow7osIFF14bqtbiAyLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1657095749587!5m2!1sen!2s"
+          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" class="w-[356px] h-[207px] rounded-[13px] mt-[8px]"></iframe>
       </div>
     </div>
   </footer>

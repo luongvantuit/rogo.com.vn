@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     font-family: 'Inter', sans-serif, serif;
 }
@@ -7,4 +11,3 @@ header,
 section {
     background-color: #202125;
 }
-
