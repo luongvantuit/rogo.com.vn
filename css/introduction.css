@@ -6,3 +6,15 @@
     align-items: center;
     margin-top: 32px;
 }
+
+.rogo__introduction_container {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 66px;
+}
+
+.rogo__introduction img {
+    width: 1440px;
+    margin-top: -128px;
+}
