@@ -1,13 +1,10 @@
-body {
-    background-color: #202125;
-}
-
-
 * {
     font-family: 'Inter', sans-serif, serif;
 }
 
-
-::-webkit-scrollbar {
-    display: none;
+body,
+header,
+section {
+    background-color: #202125;
 }
+

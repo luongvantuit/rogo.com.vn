@@ -1,863 +1,545 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rogo Solutions - Home</title>
-    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
-    <!-- Head link CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Head link CSS Local -->
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body class="flex flex-col items-center w-full transition duration-500">
-    <!-- Header -->
-    <!-- sticky top-0 left-0 -->
-    <header
-      id="header"
-      class="bg-[#202125] w-full z-[1] flex justify-center sticky top-[-32px] left-0 right-0"
-    >
-      <div
-        class="w-[1440px] flex flex-row justify-center items-center pt-[62px] pb-[30px] pl-[80px] pr-[48px]"
-      >
-        <img
-          src="./assets/logo.svg"
-          alt="Logo Rogo Solutions"
-          class="w-[68.29px] h-[96.8px]"
-        />
-        <nav class="flex flex-1 flex-row items-center justify-center">
-          <a
-            class="text-[24px] text-white font-bold px-[26px]"
-            href="/index.html"
-            >Trang chủ</a
-          >
-          <a href="#" class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-            >Giải pháp</a
-          >
-          <a
-            href="#functions"
-            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-            >Tính năng</a
-          >
-          <a
-            href="#protocol"
-            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-            >Giao thức kết nối</a
-          >
-          <a
-            href="#partner"
-            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-            >Đối tác</a
-          >
-          <a
-            href="#about"
-            class="text-[24px] text-[#EAEAEA] font-medium px-[26px]"
-            >Về chúng tôi</a
-          >
-        </nav>
-        <div class="flex flex-row items-center">
-          <a href="#"><img src="./assets/vietnamese-icon.png" alt="US" /></a>
-          <a href="#"
-            ><img src="./assets/english-icon.png" alt="VN" class="ml-[8px]"
-          /></a>
-        </div>
-      </div>
-    </header>
-    <main
-      id="introduction"
-      class="w-full flex flex-col items-center justify-center mt-[32px]"
-    >
-      <div class="flex flex-row mb-[66px] w-[1440px]">
-        <p
-          class="text-white text-[86.67px] w-[331px] h-[258px] mr-[46px] ml-[102px]"
-        >
-          Make your life smart
-        </p>
-        <div class="flex flex-col w-[839px] mt-[32px]">
-          <p class="text-[#EAEAEA] text-[24px] font-light">
-            Rogo là giải pháp nền tảng thiết bị thông minh cho các công ty,
-            doanh nghiệp có nhu cầu xây dựng các sản phẩm thiết bị thông minh!
-          </p>
-          <p class="text-[#EAEAEA] text-[24px] font-light mt-[32px]">
-            Rogo cung cấp các giải pháp đầy đủ cho nhà thông minh, khách sạn
-            thông minh, văn phòng thông minh... - Make in Việt Nam.
-          </p>
-          <div class="flex justify-center mt-[48px]">
-            <a
-              class="text-white bg-[#F25F00] rounded-[28.42px] px-[16px] py-[8px]"
-              href="#"
-            >
-              Tìm hiểu thêm <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/top-background.png"
-        alt=""
-        class="w-[1440] mt-[-128px]"
-      />
-    </main>
-    <!-- About Us -->
-    <img src="./assets/top-about.svg" alt="" class="w-full" />
-    <section
-      id="about"
-      class="flex flex-col bg-[#272B3F] w-full items-center pt-[73px]"
-    >
-      <h2
-        class="uppercase text-white text-[48px] font-bold text-center mb-[66px]"
-      >
-        About Us
-      </h2>
-      <div class="flex flex-row">
-        <div
-          class="flex flex-col flex-1 items-start w-[600px] pr-[32px] mr-[77px]"
-        >
-          <span
-            class="text-white text-[32px] font-bold mb-[21px] flex flex-row items-center"
-            ><img
-              src="./assets/about-us-dot.svg"
-              alt="Dot"
-              class="w-[15px] h-[15px] mr-[25px]"
-            />
-            Who are we</span
-          >
-          <p class="text-white text-[24px]">
-            ROGO is the smart devices platform solutions that enables smart
-            products to come to life for brands, manufactures, retail chains.
-          </p>
-          <span
-            class="text-white text-[32px] font-bold mb-[21px] mt-[46px] flex flex-row items-center"
-            ><img
-              src="./assets/about-us-dot.svg"
-              alt="Dot"
-              class="w-[15px] h-[15px] mr-[25px]"
-            />
-            Applied industries</span
-          >
-          <p class="text-white text-[24px]">
-            Current: Rogo Home, Rogo Car, Rogo Hotel NextGen: HeathCare,
-            Factory, Building, Farm, Smart City
-          </p>
-          <span
-            class="text-white text-[32px] font-bold mb-[21px] mt-[46px] flex flex-row items-center"
-            ><img
-              src="./assets/about-us-dot.svg"
-              alt="Dot"
-              class="w-[15px] h-[15px] mr-[25px]"
-            />
-            Vision</span
-          >
-          <p class="text-white text-[24px]">
-            Connect platforms and create the fastest new products and solutions
-            on a minimalist IoT platform
-          </p>
-          <span
-            class="text-white text-[32px] font-bold mb-[21px] mt-[46px] flex flex-row items-center"
-            ><img
-              src="./assets/about-us-dot.svg"
-              alt="Dot"
-              class="w-[15px] h-[15px] mr-[25px]"
-            />
-            Mission</span
-          >
-          <p class="text-white text-[24px]">
-            Helping traditional businesses transform into innovative products
-            and new services. Quickly innovate and optimize resources
-          </p>
-        </div>
-        <div class="flex flex-col justify-end pb-[32px]">
-          <div class="flex flex-row items-center justify-center mb-[66px]">
-            <img
-              src="./assets/logo-rogo.svg"
-              alt="Rogo Solutions"
-              class="w-[91.45px] h-[192px]"
-            />
-            <img
-              src="./assets/logo-trang-chu.png"
-              alt="Logo Home"
-              class="w-[312px] h-[235.9px] ml-[57px]"
-            />
-          </div>
-          <img
-            src="./assets/rogo-about-us.png"
-            alt=""
-            class="w-[657.31px] h-[329px] rounded-[31px]"
-          />
-        </div>
-      </div>
-    </section>
-    <section
-      id="rogo-platform"
-      class="flex items-center justify-center w-full bg-[#272B3F] pt-[160px]"
-    >
-      <div class="w-[1440px] relative z-0">
-        <img
-          src="./assets/background-rogo-platform.svg"
-          alt=""
-          class="w-[1440px]"
-        />
-        <div
-          class="flex flex-col items-start absolute top-[72.38px] left-[60px]"
-        >
-          <p
-            class="text-white text-[30.61px] font-medium uppercase underline font-[Helvetica]"
-          >
-            FAST-easy for customization:
-          </p>
-          <div class="flex flex-row w-[533px] mt-[22px]">
-            <img
-              src="./assets/about-us-dot.svg"
-              alt=""
-              class="w-[10px] h-[10px] mx-[10px] my-[16px]"
-            />
-            <p
-              class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]"
-            >
-              Rogo builds off-the-shelf solutions that are easy to personalize
-              according to customers' wishes to reduce development/integration
-              time
-            </p>
-          </div>
-          <!---->
-          <p
-            class="text-white text-[30.61px] font-medium uppercase underline mt-[67px] font-[Helvetica]"
-          >
-            SIMPLE - Easy for Technology Update
-          </p>
-          <div class="flex flex-row w-[613px] mt-[22px]">
-            <img
-              src="./assets/about-us-dot.svg"
-              alt=""
-              class="w-[10px] h-[10px] mx-[10px] my-[16px]"
-            />
-            <p
-              class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]"
-            >
-              Rogo always updates the latest technology trends of the world.
-              Along with that, Rogo also helps customers update as quickly and
-              simply as possible.
-            </p>
-          </div>
-          <!---->
-          <p
-            class="text-white text-[30.61px] font-medium uppercase underline mt-[61px] font-[Helvetica]"
-          >
-            FRIENDLY - Modern Design Interface
-          </p>
-          <div class="flex flex-row w-[645px] mt-[18px]">
-            <img
-              src="./assets/about-us-dot.svg"
-              alt=""
-              class="w-[10px] h-[10px] mx-[10px] my-[16px]"
-            />
-            <p
-              class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]"
-            >
-              Rogo App has a user-friendly control interface and a trendy
-              design.
-            </p>
-          </div>
-          <div class="flex flex-row mt-[18px]">
-            <img
-              src="./assets/about-us-dot.svg"
-              alt=""
-              class="w-[10px] h-[10px] mx-[8px] my-[16px]"
-            />
-            <p
-              class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]"
-            >
-              Rogo's equipment is simple but no less modern, suitable for the
-              design of any interior space.
-            </p>
-          </div>
-          <!---->
-          <p
-            class="text-white text-[30.61px] font-medium uppercase underline mt-[48px] font-[Helvetica]"
-          >
-            CONNECT - Transparency
-          </p>
-          <div class="flex flex-row mt-[18px]">
-            <img
-              src="./assets/about-us-dot.svg"
-              alt=""
-              class="w-[10px] h-[10px] mx-[10px] my-[16px]"
-            />
-            <p
-              class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]"
-            >
-              The server system is located entirely in Vietnam.
-            </p>
-          </div>
-          <!---->
-          <p
-            class="text-white text-[30.61px] font-medium uppercase underline mt-[48px] font-[Helvetica]"
-          >
-            SCALE - Remote Support & Meta
-          </p>
-          <div class="flex flex-row mt-[18px]">
-            <img
-              src="./assets/about-us-dot.svg"
-              alt=""
-              class="w-[10px] h-[10px] mx-[10px] my-[16px]"
-            />
-            <p
-              class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]"
-            >
-              Hỗ trợ khách hàng từ xa.
-            </p>
-          </div>
-        </div>
-        <div class="absolute top-[16px] right-[48px] flex flex-col items-end">
-          <p class="uppercase font-bold text-white text-[56px] w-[668px]">
-            Excellence of ROGO All-in-One Platform
-          </p>
-          <img
-            src="./assets/rogo-platform-model.png"
-            alt=""
-            class="mt-[66px] mx-[22px]"
-          />
-        </div>
-      </div>
-    </section>
-    <section
-      id="app-interface-design"
-      class="w-full bg-[#272B3F] flex justify-center pt-[130px]"
-    >
-      <div class="relative z-0">
-        <img src="./assets/app-ui.png" alt="" class="w-[1440px]" />
-        <p
-          class="text-white text-[70.78px] w-[690px] uppercase absolute top-[49px] left-[101px] font-bold"
-        >
-          rogo app interface design
-        </p>
-      </div>
-    </section>
-    <section
-      id="functions"
-      class="bg-[#272B3F] flex flex-col justify-center items-center w-full pt-[216px]"
-    >
-      <h2 class="text-white text-[70.7797px] font-bold uppercase">Functions</h2>
-      <p
-        class="w-[1112px] text-[24px] text-white font-light mt-[32px] text-center"
-      >
-        Rogo là giải pháp nhà thông minh với đây đủ các tính năng cơ bản để điều
-        khiển các thiết bị từ xa, đặt lịch, hẹn giờ hay xây dựng các kịch bản
-        đơn giản, phức tạp. Hệ thống thiết bị Rogo có thể giúp các bạn liên kết
-        dễ dàng các hãng theo các kịch bản mà người dùng có thể tự xây dựng.
-      </p>
-      <div class="flex flex-row w-[1440px] justify-center mt-[42px]">
-        <!-- Left -->
-        <div
-          class="flex flex-col items-end justify-around ml-[77px] mr-[62px] flex-1"
-        >
-          <div class="flex flex-row items-center">
-            <p class="text-white text-[24px] uppercase text-end">
-              Điều khiển thông minh bằng giọng nói
-            </p>
-            <img
-              src="./assets/functions/fa-voice.svg"
-              alt="Voice Icon"
-              class="ml-[37px]"
-            />
-          </div>
-          <div class="flex flex-row items-center">
-            <p class="text-white text-[24px] uppercase text-end">
-              Điều khiển từ xa kể cả khi mất mạng
-            </p>
-            <img
-              src="./assets/functions/fa-lan.svg"
-              alt="LAN Icon"
-              class="ml-[37px]"
-            />
-          </div>
-        </div>
-        <!-- Center -->
-        <img
-          src="./assets/rogo-app-ui-functions-section.png"
-          alt=""
-          class="w-[347.22px] h-[721px]"
-        />
-        <!-- Right -->
-        <div
-          class="flex flex-col items-start justify-around mr-[77px] ml-[62px] flex-1"
-        >
-          <div class="flex flex-row items-center">
-            <img
-              src="./assets/functions/fa-kich-ban.svg"
-              alt="Icon"
-              class="mr-[37px]"
-            />
-            <p class="text-white text-[24px] uppercase text-start">
-              Tạo kịch bản
-            </p>
-          </div>
-          <div class="flex flex-row items-center">
-            <img
-              src="./assets/functions/fa-lich-dieu-khien.svg"
-              alt="Icon"
-              class="mr-[37px]"
-            />
-            <p class="text-white text-[24px] uppercase text-start">
-              Lập lịch điều khiển nhanh
-            </p>
-          </div>
-          <div class="flex flex-row items-center">
-            <img
-              src="./assets/functions/fa-auto.svg"
-              alt="Auto Icon"
-              class="mr-[37px]"
-            />
-            <p class="text-white text-[24px] uppercase text-start">
-              Tự động hóa
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- BENEFITS FROM ROGO SOLUTIONS -->
-    <section
-      id="benefit-from-rogo-solutions"
-      class="bg-[#272B3F] flex flex-col justify-center items-center w-full pt-[244px] pb-[173.4px]"
-    >
-      <h2 class="text-white text-[70.7797px] font-bold uppercase">
-        BENEFITS FROM ROGO SOLUTIONS
-      </h2>
-      <div class="w-[1440px] flex flex-row pl-[89px] pr-[69px] mt-[104px]">
-        <div class="flex flex-col flex-1 justify-around">
-          <div>
-            <p class="text-white font-bold text-[36px] capitalize">
-              1. Stability- Remote Support
-            </p>
-            <p class="text-white text-[36px] capitalize font-light">
-              (Reduce Customer Service Cost)
-            </p>
-          </div>
-          <div>
-            <p class="text-white font-bold text-[36px] capitalize">
-              2. White Label Solution
-            </p>
-            <p class="text-white text-[36px] capitalize font-light">
-              Enhance Brand Value
-            </p>
-          </div>
-          <div>
-            <p class="text-white font-bold text-[36px] capitalize">
-              3. One Provider
-            </p>
-            <p class="text-white text-[36px] capitalize font-light">
-              For Total Solution
-            </p>
-          </div>
-          <div>
-            <p class="text-white font-bold text-[36px] capitalize">
-              4. Device Ecosystem
-            </p>
-            <p class="text-white text-[36px] capitalize font-light">
-              From A to Z
-            </p>
-          </div>
-          <div>
-            <p class="text-white font-bold text-[36px] capitalize">
-              5. Ecosystem
-            </p>
-            <p class="text-white text-[36px] capitalize font-light">
-              Easy for Service Add-ons
-            </p>
-          </div>
-        </div>
-        <img
-          src="./assets/benefit.png"
-          alt="Benefit"
-          class="w-[776px] h-[784.6px]"
-        />
-      </div>
-    </section>
-    <svg
-      width="100%"
-      viewBox="0 0 1440 257"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M1440 257C942.926 21.9148 272.886 159.048 0 257L-2.24676e-05 0.00012207L1440 -3.81849e-06L1440 257Z"
-        fill="#272B3F"
-      />
-    </svg>
-    <!-- Use Cases -->
 
-    <section
-      id="use-cases"
-      class="flex flex-col justify-center items-center w-full pt-[244px] pb-[173.4px]"
-    >
-      <div class="w-[1440px] flex justify-center items-center">
-        <div class="relative flex flex-col items-center">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rogo Solutions - Home</title>
+  <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
+  <!-- Head link CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- Head link CSS Local -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/introduction.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/benefits.css">
+  <link rel="stylesheet" href="./css/use-case.css">
+  <link rel="stylesheet" href="./css/partnership.css">
+  <link rel="stylesheet" href="./css/protocol.css">
+  <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <!-- sticky top-0 left-0 -->
+  <header id="header" class="rogo__header">
+    <div class="rogo__header__container">
+      <img id="rogo__logo__banner" src="./assets/logo.svg" alt="Logo banner Rogo Solutions"
+        class="rogo__header__container__logo" />
+      <nav class="rogo__header__container__nav">
+        <a class="rogo__header__container__nav__item rogo__header__container__nav__item__active"
+          href="/index.html">Trang chủ</a>
+        <a href="#" class="rogo__header__container__nav__item">Giải pháp</a>
+        <a href="#functions" class="rogo__header__container__nav__item">Tính năng</a>
+        <a href="#protocol" class="rogo__header__container__nav__item">Giao thức kết nối</a>
+        <a href="#partner" class="rogo__header__container__nav__item">Đối tác</a>
+        <a href="#about" class="rogo__header__container__nav__item">Về chúng tôi</a>
+      </nav>
+      <div class="rogo__header__container__language__container">
+        <a href="#"><img src="./assets/vietnamese-icon.png" alt="US"
+            class="rogo__header__container__language__container__item" /></a>
+        <a href="#"><img src="./assets/english-icon.png" alt="VN"
+            class="rogo__header__container__language__container__item" /></a>
+      </div>
+    </div>
+  </header>
+  <main id="introduction" class="rogo__introduction">
+    <div class="rogo__introduction_container">
+      <p class="text-white text-[86.67px] w-[331px] h-[258px] mr-[46px] ml-[102px]">
+        Make your life smart
+      </p>
+      <div class="flex flex-col w-[839px] mt-[32px]">
+        <p class="text-[#EAEAEA] text-[24px] font-light">
+          Rogo là giải pháp nền tảng thiết bị thông minh cho các công ty,
+          doanh nghiệp có nhu cầu xây dựng các sản phẩm thiết bị thông minh!
+        </p>
+        <p class="text-[#EAEAEA] text-[24px] font-light mt-[32px]">
+          Rogo cung cấp các giải pháp đầy đủ cho nhà thông minh, khách sạn
+          thông minh, văn phòng thông minh... - Make in Việt Nam.
+        </p>
+        <div class="flex justify-center mt-[48px]">
+          <a class="text-white bg-[#F25F00] rounded-[28.42px] px-[16px] py-[8px]" href="#">
+            Tìm hiểu thêm <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/top-background.png" alt="" />
+  </main>
+  <!-- About Us -->
+  <img src="./assets/top-about.svg" alt="" class="w-full" />
+  <section id="about" class="flex flex-col bg-[#272B3F] w-full items-center pt-[73px]">
+    <h2 class="uppercase text-white text-[48px] font-bold text-center mb-[66px]">
+      About Us
+    </h2>
+    <div class="flex flex-row">
+      <div class="flex flex-col flex-1 items-start w-[600px] pr-[32px] mr-[77px]">
+        <span class="text-white text-[32px] font-bold mb-[21px] flex flex-row items-center"><img
+            src="./assets/about-us-dot.svg" alt="Dot" class="w-[15px] h-[15px] mr-[25px]" />
+          Who are we</span>
+        <p class="text-white text-[24px]">
+          ROGO is the smart devices platform solutions that enables smart
+          products to come to life for brands, manufactures, retail chains.
+        </p>
+        <span class="text-white text-[32px] font-bold mb-[21px] mt-[46px] flex flex-row items-center"><img
+            src="./assets/about-us-dot.svg" alt="Dot" class="w-[15px] h-[15px] mr-[25px]" />
+          Applied industries</span>
+        <p class="text-white text-[24px]">
+          Current: Rogo Home, Rogo Car, Rogo Hotel NextGen: HeathCare,
+          Factory, Building, Farm, Smart City
+        </p>
+        <span class="text-white text-[32px] font-bold mb-[21px] mt-[46px] flex flex-row items-center"><img
+            src="./assets/about-us-dot.svg" alt="Dot" class="w-[15px] h-[15px] mr-[25px]" />
+          Vision</span>
+        <p class="text-white text-[24px]">
+          Connect platforms and create the fastest new products and solutions
+          on a minimalist IoT platform
+        </p>
+        <span class="text-white text-[32px] font-bold mb-[21px] mt-[46px] flex flex-row items-center"><img
+            src="./assets/about-us-dot.svg" alt="Dot" class="w-[15px] h-[15px] mr-[25px]" />
+          Mission</span>
+        <p class="text-white text-[24px]">
+          Helping traditional businesses transform into innovative products
+          and new services. Quickly innovate and optimize resources
+        </p>
+      </div>
+      <div class="flex flex-col justify-end pb-[32px]">
+        <div class="flex flex-row items-center justify-center mb-[66px]">
+          <img src="./assets/logo-rogo.svg" alt="Rogo Solutions" class="w-[91.45px] h-[192px]" />
+          <img src="./assets/logo-trang-chu.png" alt="Logo Home" class="w-[312px] h-[235.9px] ml-[57px]" />
+        </div>
+        <img src="./assets/rogo-about-us.png" alt="" class="w-[657.31px] h-[329px] rounded-[31px]" />
+      </div>
+    </div>
+  </section>
+  <section id="rogo-platform" class="flex items-center justify-center w-full bg-[#272B3F] pt-[160px]">
+    <div class="w-[1440px] relative z-0">
+      <img src="./assets/background-rogo-platform.svg" alt="" class="w-[1440px]" />
+      <div class="flex flex-col items-start absolute top-[72.38px] left-[60px]">
+        <p class="text-white text-[30.61px] font-medium uppercase underline font-[Helvetica]">
+          FAST-easy for customization:
+        </p>
+        <div class="flex flex-row w-[533px] mt-[22px]">
+          <img src="./assets/about-us-dot.svg" alt="" class="w-[10px] h-[10px] mx-[10px] my-[16px]" />
+          <p class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]">
+            Rogo builds off-the-shelf solutions that are easy to personalize
+            according to customers' wishes to reduce development/integration
+            time
+          </p>
+        </div>
+        <!---->
+        <p class="text-white text-[30.61px] font-medium uppercase underline mt-[67px] font-[Helvetica]">
+          SIMPLE - Easy for Technology Update
+        </p>
+        <div class="flex flex-row w-[613px] mt-[22px]">
+          <img src="./assets/about-us-dot.svg" alt="" class="w-[10px] h-[10px] mx-[10px] my-[16px]" />
+          <p class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]">
+            Rogo always updates the latest technology trends of the world.
+            Along with that, Rogo also helps customers update as quickly and
+            simply as possible.
+          </p>
+        </div>
+        <!---->
+        <p class="text-white text-[30.61px] font-medium uppercase underline mt-[61px] font-[Helvetica]">
+          FRIENDLY - Modern Design Interface
+        </p>
+        <div class="flex flex-row w-[645px] mt-[18px]">
+          <img src="./assets/about-us-dot.svg" alt="" class="w-[10px] h-[10px] mx-[10px] my-[16px]" />
+          <p class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]">
+            Rogo App has a user-friendly control interface and a trendy
+            design.
+          </p>
+        </div>
+        <div class="flex flex-row mt-[18px]">
+          <img src="./assets/about-us-dot.svg" alt="" class="w-[10px] h-[10px] mx-[8px] my-[16px]" />
+          <p class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]">
+            Rogo's equipment is simple but no less modern, suitable for the
+            design of any interior space.
+          </p>
+        </div>
+        <!---->
+        <p class="text-white text-[30.61px] font-medium uppercase underline mt-[48px] font-[Helvetica]">
+          CONNECT - Transparency
+        </p>
+        <div class="flex flex-row mt-[18px]">
+          <img src="./assets/about-us-dot.svg" alt="" class="w-[10px] h-[10px] mx-[10px] my-[16px]" />
+          <p class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]">
+            The server system is located entirely in Vietnam.
+          </p>
+        </div>
+        <!---->
+        <p class="text-white text-[30.61px] font-medium uppercase underline mt-[48px] font-[Helvetica]">
+          SCALE - Remote Support & Meta
+        </p>
+        <div class="flex flex-row mt-[18px]">
+          <img src="./assets/about-us-dot.svg" alt="" class="w-[10px] h-[10px] mx-[10px] my-[16px]" />
+          <p class="text-white text-[30.61px] font-light text-justify font-[Helvetica] leading-[37px]">
+            Hỗ trợ khách hàng từ xa.
+          </p>
+        </div>
+      </div>
+      <div class="absolute top-[16px] right-[48px] flex flex-col items-end">
+        <p class="uppercase font-bold text-white text-[56px] w-[668px]">
+          Excellence of ROGO All-in-One Platform
+        </p>
+        <img src="./assets/rogo-platform-model.png" alt="" class="mt-[66px] mx-[22px]" />
+      </div>
+    </div>
+  </section>
+  <section id="app-interface-design" class="w-full bg-[#272B3F] flex justify-center pt-[130px]">
+    <div class="relative z-0">
+      <img src="./assets/app-ui.png" alt="" class="w-[1440px]" />
+      <p class="text-white text-[70.78px] w-[690px] uppercase absolute top-[49px] left-[101px] font-bold">
+        rogo app interface design
+      </p>
+    </div>
+  </section>
+  <section id="functions" class="bg-[#272B3F] flex flex-col justify-center items-center w-full pt-[216px]">
+    <h2 class="text-white text-[70.7797px] font-bold uppercase">Functions</h2>
+    <p class="w-[1112px] text-[24px] text-white font-light mt-[32px] text-center">
+      Rogo là giải pháp nhà thông minh với đây đủ các tính năng cơ bản để điều
+      khiển các thiết bị từ xa, đặt lịch, hẹn giờ hay xây dựng các kịch bản
+      đơn giản, phức tạp. Hệ thống thiết bị Rogo có thể giúp các bạn liên kết
+      dễ dàng các hãng theo các kịch bản mà người dùng có thể tự xây dựng.
+    </p>
+    <div class="flex flex-row w-[1440px] justify-center mt-[42px]">
+      <!-- Left -->
+      <div class="flex flex-col items-end justify-around ml-[77px] mr-[62px] flex-1">
+        <div class="flex flex-row items-center">
+          <p class="text-white text-[24px] uppercase text-end">
+            Điều khiển thông minh bằng giọng nói
+          </p>
+          <img src="./assets/functions/fa-voice.svg" alt="Voice Icon" class="ml-[37px]" />
+        </div>
+        <div class="flex flex-row items-center">
+          <p class="text-white text-[24px] uppercase text-end">
+            Điều khiển từ xa kể cả khi mất mạng
+          </p>
+          <img src="./assets/functions/fa-lan.svg" alt="LAN Icon" class="ml-[37px]" />
+        </div>
+      </div>
+      <!-- Center -->
+      <img src="./assets/rogo-app-ui-functions-section.png" alt="" class="w-[347.22px] h-[721px]" />
+      <!-- Right -->
+      <div class="flex flex-col items-start justify-around mr-[77px] ml-[62px] flex-1">
+        <div class="flex flex-row items-center">
+          <img src="./assets/functions/fa-kich-ban.svg" alt="Icon" class="mr-[37px]" />
+          <p class="text-white text-[24px] uppercase text-start">
+            Tạo kịch bản
+          </p>
+        </div>
+        <div class="flex flex-row items-center">
+          <img src="./assets/functions/fa-lich-dieu-khien.svg" alt="Icon" class="mr-[37px]" />
+          <p class="text-white text-[24px] uppercase text-start">
+            Lập lịch điều khiển nhanh
+          </p>
+        </div>
+        <div class="flex flex-row items-center">
+          <img src="./assets/functions/fa-auto.svg" alt="Auto Icon" class="mr-[37px]" />
+          <p class="text-white text-[24px] uppercase text-start">
+            Tự động hóa
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- BENEFITS FROM ROGO SOLUTIONS -->
+  <section id="benefit-from-rogo-solutions"
+    class="bg-[#272B3F] flex flex-col justify-center items-center w-full pt-[244px] pb-[173.4px]">
+    <h2 class="text-white text-[70.7797px] font-bold uppercase">
+      BENEFITS FROM ROGO SOLUTIONS
+    </h2>
+    <div class="w-[1440px] flex flex-row pl-[89px] pr-[69px] mt-[104px]">
+      <div class="flex flex-col flex-1 justify-around">
+        <div>
+          <p class="text-white font-bold text-[36px] capitalize">
+            1. Stability- Remote Support
+          </p>
+          <p class="text-white text-[36px] capitalize font-light">
+            (Reduce Customer Service Cost)
+          </p>
+        </div>
+        <div>
+          <p class="text-white font-bold text-[36px] capitalize">
+            2. White Label Solution
+          </p>
+          <p class="text-white text-[36px] capitalize font-light">
+            Enhance Brand Value
+          </p>
+        </div>
+        <div>
+          <p class="text-white font-bold text-[36px] capitalize">
+            3. One Provider
+          </p>
+          <p class="text-white text-[36px] capitalize font-light">
+            For Total Solution
+          </p>
+        </div>
+        <div>
+          <p class="text-white font-bold text-[36px] capitalize">
+            4. Device Ecosystem
+          </p>
+          <p class="text-white text-[36px] capitalize font-light">
+            From A to Z
+          </p>
+        </div>
+        <div>
+          <p class="text-white font-bold text-[36px] capitalize">
+            5. Ecosystem
+          </p>
+          <p class="text-white text-[36px] capitalize font-light">
+            Easy for Service Add-ons
+          </p>
+        </div>
+      </div>
+      <img src="./assets/benefit.png" alt="Benefit" class="w-[776px] h-[784.6px]" />
+    </div>
+  </section>
+  <svg width="100%" viewBox="0 0 1440 257" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1440 257C942.926 21.9148 272.886 159.048 0 257L-2.24676e-05 0.00012207L1440 -3.81849e-06L1440 257Z"
+      fill="#272B3F" />
+  </svg>
+  <!-- Use Cases -->
+
+  <section id="use-cases" class="flex flex-col justify-center items-center w-full pt-[244px] pb-[173.4px]">
+    <div class="w-[1440px] flex justify-center items-center">
+      <div class="relative flex flex-col items-center">
+        <p
+          class="uppercase text-[#272B3F] text-[40px] font-bold text-center px-[31px] py-[16px] rounded-[25px] bg-white">
+          smart car
+        </p>
+        <div class="flex flex-col items-start">
+          <span class="flex flex-row items-center mt-[17px]">
+            <img src="./assets/about-us-dot.svg" alt="" srcset="" class="w-[16px] h-[16px]" />
+            <p class="text-white text-[40px] font-bold ml-[37px]">
+              Smart Display
+            </p>
+          </span>
+          <span class="flex flex-row items-center mt-[20px]">
+            <img src="./assets/about-us-dot.svg" alt="" srcset="" class="w-[16px] h-[16px]" />
+            <p class="text-white text-[40px] font-bold ml-[37px]">
+              Smart Sensor
+            </p>
+          </span>
+          <span class="flex flex-row items-center mt-[20px]">
+            <img src="./assets/about-us-dot.svg" alt="" srcset="" class="w-[16px] h-[16px]" />
+            <p class="text-white text-[40px] font-bold ml-[37px]">
+              Smart Diagnostic
+            </p>
+          </span>
+        </div>
+        <img src="./assets/use-case.png" alt="Use case" srcset="" class="w-[525px] h-[528.23px] mt-[43px]" />
+        <!-- Smart Hotel -->
+        <div class="absolute left-[525px] right-[-370px] top-[270px]">
           <p
-            class="uppercase text-[#272B3F] text-[40px] font-bold text-center px-[31px] py-[16px] rounded-[25px] bg-white"
-          >
-            smart car
+            class="uppercase text-[#272B3F] text-[40px] font-bold text-center px-[31px] py-[16px] rounded-[25px] bg-white">
+            smart hotel
           </p>
           <div class="flex flex-col items-start">
             <span class="flex flex-row items-center mt-[17px]">
-              <img
-                src="./assets/about-us-dot.svg"
-                alt=""
-                srcset=""
-                class="w-[16px] h-[16px]"
-              />
+              <img src="./assets/about-us-dot.svg" alt="" srcset="" class="w-[16px] h-[16px]" />
               <p class="text-white text-[40px] font-bold ml-[37px]">
-                Smart Display
+                Smart Key
               </p>
             </span>
             <span class="flex flex-row items-center mt-[20px]">
-              <img
-                src="./assets/about-us-dot.svg"
-                alt=""
-                srcset=""
-                class="w-[16px] h-[16px]"
-              />
+              <img src="./assets/about-us-dot.svg" alt="" srcset="" class="w-[16px] h-[16px]" />
               <p class="text-white text-[40px] font-bold ml-[37px]">
-                Smart Sensor
+                Smart Check-In
               </p>
             </span>
             <span class="flex flex-row items-center mt-[20px]">
-              <img
-                src="./assets/about-us-dot.svg"
-                alt=""
-                srcset=""
-                class="w-[16px] h-[16px]"
-              />
+              <img src="./assets/about-us-dot.svg" alt="" srcset="" class="w-[16px] h-[16px]" />
               <p class="text-white text-[40px] font-bold ml-[37px]">
-                Smart Diagnostic
+                Smart Room
               </p>
             </span>
           </div>
-          <img
-            src="./assets/use-case.png"
-            alt="Use case"
-            srcset=""
-            class="w-[525px] h-[528.23px] mt-[43px]"
-          />
-          <!-- Smart Hotel -->
-          <div class="absolute left-[525px] right-[-370px] top-[270px]">
-            <p
-              class="uppercase text-[#272B3F] text-[40px] font-bold text-center px-[31px] py-[16px] rounded-[25px] bg-white"
-            >
-              smart hotel
+        </div>
+        <!-- Smart Home -->
+        <div class="absolute left-[-390px] right-0 top-[270px] items-start flex flex-col w-[390px]">
+          <p
+            class="uppercase text-[#272B3F] text-[40px] font-bold text-center px-[31px] py-[16px] rounded-[25px] bg-white">
+            smart home
+          </p>
+          <div class="flex flex-col items-start">
+            <span class="flex flex-row items-center mt-[17px]">
+              <img src="./assets/about-us-dot.svg" alt="" srcset="" class="w-[16px] h-[16px]" />
+              <p class="text-white text-[40px] font-bold ml-[37px]">
+                Smart Lighting
+              </p>
+            </span>
+            <span class="flex flex-row items-center mt-[20px]">
+              <img src="./assets/about-us-dot.svg" alt="" srcset="" class="w-[16px] h-[16px]" />
+              <p class="text-white text-[40px] font-bold ml-[37px]">
+                Smart Control
+              </p>
+            </span>
+            <span class="flex flex-row items-center mt-[20px]">
+              <img src="./assets/about-us-dot.svg" alt="" srcset="" class="w-[16px] h-[16px]" />
+              <p class="text-white text-[40px] font-bold ml-[37px]">
+                Safe - Security - Monitoring
+              </p>
+            </span>
+            <span class="flex flex-row items-center mt-[20px]">
+              <img src="./assets/about-us-dot.svg" alt="" srcset="" class="w-[16px] h-[16px]" />
+              <p class="text-white text-[40px] font-bold ml-[37px]">
+                Open Ecosystem
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-white text-[70.7797px] font-bold uppercase mt-[87.77px]">
+      USE CASES OF ROGO SOLUTIONS
+    </h2>
+  </section>
+
+  <svg width="100%" viewBox="0 0 1439 117" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M723.004 52.9999C1047.05 95.4 1336.02 35.3333 1440 0L1440 117L0 117L4.50227e-06 65.4999C194.27 21.4999 317.942 -9.80935e-05 723.004 52.9999Z"
+      fill="#272B3F" />
+  </svg>
+
+  <!-- ROGO Partnership Model -->
+
+  <section id="rogo-partnership-model"
+    class="bg-[#272B3F] flex flex-col justify-center items-center w-full pt-[244px] pb-[173.4px]">
+    <h2 class="text-white text-[70.7797px] font-bold uppercase">
+      ROGO Partnership Model
+    </h2>
+    <div class="w-[1440px] mt-[93px]">
+      <div class="relative w-[751px] h-[633.84px] ml-[33px]">
+        <img src="./assets/rogo-partnership-model.png" alt="ROGO Partnership Model" class="w-[751px] h-[633.84px]" />
+        <p
+          class="uppercase text-[#272B3F] text-[36px] font-bold w-[407px] text-center bg-white rounded-[33px] absolute top-[32px] right-[-420px] p-[16px]">
+          HARDWARE DEVICE PROVIDERS
+        </p>
+
+        <p
+          class="uppercase text-[#272B3F] text-[36px] font-bold w-[470px] text-center bg-white rounded-[33px] absolute top-[240px] right-[-560px] p-[16px]">
+          TOTAL PACKAGE SOLUTION PROVIDERS
+        </p>
+
+        <p
+          class="uppercase text-[#272B3F] text-[36px] font-bold w-[499px] text-center bg-white rounded-[33px] absolute top-[460px] right-[-500px] p-[16px]">
+          INDUSTRY DEVELOPERS & DISTRIBUTORS
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Protocol -->
+  <section id="protocol" class="bg-[#272B3F] flex flex-col justify-center items-center pt-[223.16px] w-full">
+    <h2 class="text-white text-[70.7797px] font-bold uppercase">Protocol</h2>
+    <div class="flex flex-row mt-[95px]">
+      <!-- Zigbee Protocol -->
+      <div class="flex flex-col mx-[26px] items-center">
+        <img src="./assets/protocols/zigbee.png" alt="Zigbee Inc." class="w-[293px] h-[185px]" />
+        <p class="text-white text-[42.5508px] mt-[30px]">Zigbee</p>
+      </div>
+      <!-- BLE Protocol -->
+      <div class="flex flex-col mx-[26px] items-center">
+        <img src="./assets/protocols/ble.png" alt="BLE Protocol" class="w-[293px] h-[185px]" />
+        <p class="text-white text-[42.5508px] mt-[30px]">BLE</p>
+      </div>
+      <!-- Rogo Wile Protocol -->
+      <div class="flex flex-col mx-[26px] items-center">
+        <img src="./assets/protocols/rogo-wile.png" alt="Rogo Wile Protocol" class="w-[293px] h-[185px] mx-[26px]" />
+        <p class="text-white text-[42.5508px] mt-[30px]">Rogo Wile</p>
+      </div>
+    </div>
+  </section>
+  <!-- Partner -->
+  <section id="partner" class="bg-[#272B3F] flex flex-col justify-center items-center pt-[250px] w-full">
+    <h2 class="text-white text-[70.7797px] font-bold uppercase">Partner</h2>
+    <div class="flex flex-row mt-[166px]">
+      <!-- FPT Smart Home -->
+      <img src="./assets/partners/fpt-smart-home.png" alt="FPT Smart Home" class="w-[293px] h-[185px] mx-[21px]" />
+      <!-- Vinfast -->
+      <img src="./assets/partners/vinfast.png" alt="Vinfast" class="w-[293px] h-[185px] mx-[21px]" />
+      <!-- Rạng Đông -->
+      <img src="./assets/partners/rang-dong.png" alt="Rạng Đông" class="w-[293px] h-[185px] mx-[21px]" />
+      <!-- Điện Quang -->
+      <img src="./assets/partners/dien-quang.png" alt="Điện Quang" class="w-[293px] h-[185px] mx-[21px]" />
+    </div>
+  </section>
+  <!-- Footer -->
+  <img src="./assets/wave-footer.svg" alt="" class="w-full" />
+  <footer id="footer" class="w-full flex justify-center mt-[77px] mb-[70px]">
+    <div class="w-[1440px] flex flex-row">
+      <div class="flex flex-1 flex-col items-start ml-[137px]">
+        <p class="text-white text-[48px] border-dashed border-b-2 border-[#F25F00] font-bold">
+          Liên hệ
+        </p>
+        <div class="flex flex-row justify-start items-center mt-[23px]">
+          <img src="./assets/location.svg" alt="" class="w-[45px] h-[45px]" />
+          <div class="flex flex-col ml-[34px]">
+            <p class="text-white text-[32px] font-bold">Văn phòng</p>
+            <p class="text-white text-[24px] font-light mt-[3px]">
+              88 Đường Số 52, Phường An Phú, Quận 2, Hồ Chí Minh
             </p>
-            <div class="flex flex-col items-start">
-              <span class="flex flex-row items-center mt-[17px]">
-                <img
-                  src="./assets/about-us-dot.svg"
-                  alt=""
-                  srcset=""
-                  class="w-[16px] h-[16px]"
-                />
-                <p class="text-white text-[40px] font-bold ml-[37px]">
-                  Smart Key
-                </p>
-              </span>
-              <span class="flex flex-row items-center mt-[20px]">
-                <img
-                  src="./assets/about-us-dot.svg"
-                  alt=""
-                  srcset=""
-                  class="w-[16px] h-[16px]"
-                />
-                <p class="text-white text-[40px] font-bold ml-[37px]">
-                  Smart Check-In
-                </p>
-              </span>
-              <span class="flex flex-row items-center mt-[20px]">
-                <img
-                  src="./assets/about-us-dot.svg"
-                  alt=""
-                  srcset=""
-                  class="w-[16px] h-[16px]"
-                />
-                <p class="text-white text-[40px] font-bold ml-[37px]">
-                  Smart Room
-                </p>
-              </span>
-            </div>
           </div>
-          <!-- Smart Home -->
-          <div
-            class="absolute left-[-390px] right-0 top-[270px] items-start flex flex-col w-[390px]"
-          >
-            <p
-              class="uppercase text-[#272B3F] text-[40px] font-bold text-center px-[31px] py-[16px] rounded-[25px] bg-white"
-            >
-              smart home
+        </div>
+        <div class="flex flex-row justify-start items-center mt-[23px]">
+          <img src="./assets/mail.svg" alt="" class="w-[45px] h-[45px]" />
+          <div class="flex flex-col ml-[34px]">
+            <p class="text-white text-[32px] font-bold">Thư điện tử</p>
+            <p class="text-white text-[24px] font-light mt-[3px]">
+              contact@rogo.com.vn - tuan@rogo.com.vn
             </p>
-            <div class="flex flex-col items-start">
-              <span class="flex flex-row items-center mt-[17px]">
-                <img
-                  src="./assets/about-us-dot.svg"
-                  alt=""
-                  srcset=""
-                  class="w-[16px] h-[16px]"
-                />
-                <p class="text-white text-[40px] font-bold ml-[37px]">
-                  Smart Lighting
-                </p>
-              </span>
-              <span class="flex flex-row items-center mt-[20px]">
-                <img
-                  src="./assets/about-us-dot.svg"
-                  alt=""
-                  srcset=""
-                  class="w-[16px] h-[16px]"
-                />
-                <p class="text-white text-[40px] font-bold ml-[37px]">
-                  Smart Control
-                </p>
-              </span>
-              <span class="flex flex-row items-center mt-[20px]">
-                <img
-                  src="./assets/about-us-dot.svg"
-                  alt=""
-                  srcset=""
-                  class="w-[16px] h-[16px]"
-                />
-                <p class="text-white text-[40px] font-bold ml-[37px]">
-                  Safe - Security - Monitoring
-                </p>
-              </span>
-              <span class="flex flex-row items-center mt-[20px]">
-                <img
-                  src="./assets/about-us-dot.svg"
-                  alt=""
-                  srcset=""
-                  class="w-[16px] h-[16px]"
-                />
-                <p class="text-white text-[40px] font-bold ml-[37px]">
-                  Open Ecosystem
-                </p>
-              </span>
-            </div>
+          </div>
+        </div>
+        <div class="flex flex-row justify-start items-center mt-[23px]">
+          <img src="./assets/phone.svg" alt="" class="w-[45px] h-[45px]" />
+          <div class="flex flex-col ml-[34px]">
+            <p class="text-white text-[32px] font-bold">Điện thoại</p>
+            <p class="text-white text-[24px] font-light mt-[3px]">
+              0904 371 185 - 0936 252 127
+            </p>
           </div>
         </div>
       </div>
-
-      <h2 class="text-white text-[70.7797px] font-bold uppercase mt-[87.77px]">
-        USE CASES OF ROGO SOLUTIONS
-      </h2>
-    </section>
-
-    <svg
-      width="100%"
-      viewBox="0 0 1439 117"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M723.004 52.9999C1047.05 95.4 1336.02 35.3333 1440 0L1440 117L0 117L4.50227e-06 65.4999C194.27 21.4999 317.942 -9.80935e-05 723.004 52.9999Z"
-        fill="#272B3F"
-      />
-    </svg>
-
-    <!-- ROGO Partnership Model -->
-
-    <section
-      id="rogo-partnership-model"
-      class="bg-[#272B3F] flex flex-col justify-center items-center w-full pt-[244px] pb-[173.4px]"
-    >
-      <h2 class="text-white text-[70.7797px] font-bold uppercase">
-        ROGO Partnership Model
-      </h2>
-      <div class="w-[1440px] mt-[93px]">
-        <div class="relative w-[751px] h-[633.84px] ml-[33px]">
-          <img
-            src="./assets/rogo-partnership-model.png"
-            alt="ROGO Partnership Model"
-            class="w-[751px] h-[633.84px]"
-          />
-          <p
-            class="uppercase text-[#272B3F] text-[36px] font-bold w-[407px] text-center bg-white rounded-[33px] absolute top-[32px] right-[-420px] p-[16px]"
-          >
-            HARDWARE DEVICE PROVIDERS
-          </p>
-
-          <p
-            class="uppercase text-[#272B3F] text-[36px] font-bold w-[470px] text-center bg-white rounded-[33px] absolute top-[240px] right-[-560px] p-[16px]"
-          >
-            TOTAL PACKAGE SOLUTION PROVIDERS
-          </p>
-
-          <p
-            class="uppercase text-[#272B3F] text-[36px] font-bold w-[499px] text-center bg-white rounded-[33px] absolute top-[460px] right-[-500px] p-[16px]"
-          >
-            INDUSTRY DEVELOPERS & DISTRIBUTORS
-          </p>
+      <div class="flex flex-col items-end mr-[78px]">
+        <div class="flex flex-row">
+          <a href="#">
+            <img src="./assets/facebook.svg" alt="Facebook" class="w-[40px] h-[40px] ml-[30px]" />
+          </a>
+          <a href="#">
+            <img src="./assets/twitter.svg" alt="Twitter" class="w-[40px] h-[40px] ml-[30px]" />
+          </a>
+          <a href="#">
+            <img src="./assets/instagram.svg" alt="Instagram" class="w-[40px] h-[40px] ml-[30px]" />
+          </a>
+        </div>
+        <div class="flex flex-col items-start mt-[72px]">
+          <p class="text-white text-[18px] font-light">Hướng dẫn chỉ đường</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.350084658001!2d106.74895421483647!3d10.784476261993872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525df172b81fb%3A0x4b9f2fceecf51dc2!2zODggxJDGsOG7nW5nIHPhu5EgNTIsIEFuIFBow7osIFF14bqtbiAyLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1657095749587!5m2!1sen!2s"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="w-[356px] h-[207px] rounded-[13px] mt-[8px]"></iframe>
         </div>
       </div>
-    </section>
+    </div>
+  </footer>
+  <button id="goto__top"
+    class="fixed right-[54px] bottom-[54px] w-[54px] h-[54px] z-10 bg-gray-100 rounded-[16px] shadow-xl drop-shadown-xl transition duration-500 hidden"
+    title="Go to Top">
+    <i class="fa-solid fa-arrow-up-long text-[#202125]"></i>
+  </button>
+  <script src="./js/script.js"></script>
+</body>
 
-    <!-- Protocol -->
-    <section
-      id="protocol"
-      class="bg-[#272B3F] flex flex-col justify-center items-center pt-[223.16px] w-full"
-    >
-      <h2 class="text-white text-[70.7797px] font-bold uppercase">Protocol</h2>
-      <div class="flex flex-row mt-[95px]">
-        <!-- Zigbee Protocol -->
-        <div class="flex flex-col mx-[26px] items-center">
-          <img
-            src="./assets/protocols/zigbee.png"
-            alt="Zigbee Inc."
-            class="w-[293px] h-[185px]"
-          />
-          <p class="text-white text-[42.5508px] mt-[30px]">Zigbee</p>
-        </div>
-        <!-- BLE Protocol -->
-        <div class="flex flex-col mx-[26px] items-center">
-          <img
-            src="./assets/protocols/ble.png"
-            alt="BLE Protocol"
-            class="w-[293px] h-[185px]"
-          />
-          <p class="text-white text-[42.5508px] mt-[30px]">BLE</p>
-        </div>
-        <!-- Rogo Wile Protocol -->
-        <div class="flex flex-col mx-[26px] items-center">
-          <img
-            src="./assets/protocols/rogo-wile.png"
-            alt="Rogo Wile Protocol"
-            class="w-[293px] h-[185px] mx-[26px]"
-          />
-          <p class="text-white text-[42.5508px] mt-[30px]">Rogo Wile</p>
-        </div>
-      </div>
-    </section>
-    <!-- Partner -->
-    <section
-      id="partner"
-      class="bg-[#272B3F] flex flex-col justify-center items-center pt-[250px] w-full"
-    >
-      <h2 class="text-white text-[70.7797px] font-bold uppercase">Partner</h2>
-      <div class="flex flex-row mt-[166px]">
-        <!-- FPT Smart Home -->
-        <img
-          src="./assets/partners/fpt-smart-home.png"
-          alt="FPT Smart Home"
-          class="w-[293px] h-[185px] mx-[21px]"
-        />
-        <!-- Vinfast -->
-        <img
-          src="./assets/partners/vinfast.png"
-          alt="Vinfast"
-          class="w-[293px] h-[185px] mx-[21px]"
-        />
-        <!-- Rạng Đông -->
-        <img
-          src="./assets/partners/rang-dong.png"
-          alt="Rạng Đông"
-          class="w-[293px] h-[185px] mx-[21px]"
-        />
-        <!-- Điện Quang -->
-        <img
-          src="./assets/partners/dien-quang.png"
-          alt="Điện Quang"
-          class="w-[293px] h-[185px] mx-[21px]"
-        />
-      </div>
-    </section>
-    <!-- Footer -->
-    <img src="./assets/wave-footer.svg" alt="" class="w-full" />
-    <footer id="footer" class="w-full flex justify-center mt-[77px] mb-[70px]">
-      <div class="w-[1440px] flex flex-row">
-        <div class="flex flex-1 flex-col items-start ml-[137px]">
-          <p
-            class="text-white text-[48px] border-dashed border-b-2 border-[#F25F00] font-bold"
-          >
-            Liên hệ
-          </p>
-          <div class="flex flex-row justify-start items-center mt-[23px]">
-            <img src="./assets/location.svg" alt="" class="w-[45px] h-[45px]" />
-            <div class="flex flex-col ml-[34px]">
-              <p class="text-white text-[32px] font-bold">Văn phòng</p>
-              <p class="text-white text-[24px] font-light mt-[3px]">
-                88 Đường Số 52, Phường An Phú, Quận 2, Hồ Chí Minh
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-row justify-start items-center mt-[23px]">
-            <img src="./assets/mail.svg" alt="" class="w-[45px] h-[45px]" />
-            <div class="flex flex-col ml-[34px]">
-              <p class="text-white text-[32px] font-bold">Thư điện tử</p>
-              <p class="text-white text-[24px] font-light mt-[3px]">
-                contact@rogo.com.vn - tuan@rogo.com.vn
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-row justify-start items-center mt-[23px]">
-            <img src="./assets/phone.svg" alt="" class="w-[45px] h-[45px]" />
-            <div class="flex flex-col ml-[34px]">
-              <p class="text-white text-[32px] font-bold">Điện thoại</p>
-              <p class="text-white text-[24px] font-light mt-[3px]">
-                0904 371 185 - 0936 252 127
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col items-end mr-[78px]">
-          <div class="flex flex-row">
-            <a href="#">
-              <img
-                src="./assets/facebook.svg"
-                alt="Facebook"
-                class="w-[40px] h-[40px] ml-[30px]"
-              />
-            </a>
-            <a href="#">
-              <img
-                src="./assets/twitter.svg"
-                alt="Twitter"
-                class="w-[40px] h-[40px] ml-[30px]"
-              />
-            </a>
-            <a href="#">
-              <img
-                src="./assets/instagram.svg"
-                alt="Instagram"
-                class="w-[40px] h-[40px] ml-[30px]"
-              />
-            </a>
-          </div>
-          <div class="flex flex-col items-start mt-[72px]">
-            <p class="text-white text-[18px] font-light">Hướng dẫn chỉ đường</p>
-            <img
-              src="./assets/map.png"
-              alt=""
-              class="w-[356px] h-[207px] rounded-[13px] mt-[8px]"
-            />
-          </div>
-        </div>
-      </div>
-    </footer>
-    <button
-      id="goto__top"
-      class="fixed right-[54px] bottom-[54px] w-[54px] h-[54px] z-10 bg-gray-100 rounded-[16px] shadow-xl drop-shadown-xl transition duration-500 hidden"
-      title="Go to Top"
-    >
-      <i class="fa-solid fa-arrow-up-long text-[#202125]"></i>
-    </button>
-    <script src="./js/script.js"></script>
-  </body>
 </html>
