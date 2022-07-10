@@ -1,0 +1,64 @@
+.rogo__header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.rogo__header__container {
+    width: 1440px;
+    padding: 16px 32px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rogo__header__container__logo {
+    width: 54px;
+    height: 72px;
+}
+
+.rogo__header__container__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rogo__header__container__nav__item {
+    font-weight: 300;
+    color: #EAEAEA;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin: 0 8px;
+}
+
+.rogo__header__container__nav__item__active {
+    color: white;
+    font-weight: 700;
+}
+
+.rogo__header__container__language__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rogo__header__container__language__container__item {
+    width: 32px;
+    height: 24px;
+    margin-left: 8px;
+    border-radius: 4px;
+}
+
+
+@media screen and(max-width: 1440px) {
+    .rogo__header__container {
+        width: 100%;
+    }
+}
