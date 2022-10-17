@@ -4,6 +4,7 @@ services:
     build:
       context: ./
     container_name: langding-page
-    image: rogo/lp
+    restart: always
+    image: registry.gitlab.com/rogo2/project/rogo:1.0.6
     ports:
-      - 127.0.0.1:80:80
+      - 3006:8080
